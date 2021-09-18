@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+body {
+    background-color: #333;
+    color: #DDD;
+}
+
+form {
+    margin: auto;
+}
+
+form * {
+    margin: 10px 0;
+    padding: 8px;
+}
+
+form label {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+}
+
+form textarea {
+    position: relative;
+    resize: none;
+    top: 50px;
+    height: 80px;
+    margin-top: -40px;
+}
+
+main {
+    width: 70%;
+    max-width: 700px;
+    margin: auto;
+    padding: 150px 50px;
+    padding-top: 100px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+
+.user-input {
+    width: 79%;
+    color: #333;
+}
+
+.user-input:hover {
+    box-shadow: 0 0 10px #33F;
+}
+
+#submit-button {
+    float: right;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #444;
+    background-color: #DDD;
+}
+
+#submit-button:hover {
+    color: #DDD;
+    background-color: #111;
+    box-shadow: 0 0 10px #DDD;
+}
+
+#main-header {
+    text-align: center;
+    padding: 50px;
+    color: #DDD;
+}
+
+#main-footer {
+    text-align: center;
+    padding: 50px;
+    line-height: 1.6em;
+}
+
+/* ticket.php */
+#detail-container {
+    margin: auto;
+    line-height: 2.5em;
+    font-size: 18px;
+}
+
+#detail-container td {
+    padding: 5px 40px 0 0;
+}
+
+#detail-container td:nth-child(odd) {
+    text-align: right;
+}
